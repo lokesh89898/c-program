@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+    char ch;
+    printf("enter a number between 1to12",a);
+    scanf("%d", &a);
+    switch(a)
+    {
+        case 1:
+        case 2:
+        case 3:
+        case 4:
+        case 5:
+        case 6:
+        case 7:
+        case 8:
+        case 9:
+        case 10:
+        case 11:
+      case 12:printf("%d jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec",a);
+       break;
+        default:printf("%d is a consonat", a);
+        break;
+    }
+}
